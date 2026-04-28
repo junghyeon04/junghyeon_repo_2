@@ -1,0 +1,61 @@
+@charset "utf-8";
+
+body{
+    background-color: white;
+    margin: 0;
+}
+.wrap{
+    min-height: 100vh;
+}
+header{
+    margin-top: 0;
+    height: 130px;
+    background-color: cornflowerblue;
+    border: 2px;
+    display: flex;
+    justify-content: center ;
+    align-items: center;
+    font-size: 38px;
+}
+section{
+    display: flex;
+}
+.Anya_img{
+    width: 350px;
+    height: 350px;
+    margin: 30px;
+    border-radius: 10px;
+}
+p{
+    font-size: 20px;
+}
+
+.info{
+    text-align: left;
+}
+.info h1{
+    font-size: 40px;
+}
+.mail{
+    display: contents;
+}
+.mail{
+    margin-top: 300px;
+}
+.mail p{
+    margin-left: 50px;
+}
+.mail a{
+    margin-left: 50px;
+}
+footer{
+    position: fixed;
+    margin: 0;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    background-color: darkslateblue;
+}
+footer p{
+    color: aliceblue;
+}
